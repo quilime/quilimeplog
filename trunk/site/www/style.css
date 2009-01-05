@@ -1,0 +1,63 @@
+/* css */
+
+/*
+dark
+    color:#e4e4e4;
+    background:#121414;
+    a color:#ff3434;
+    a:hover color:#fc4;
+*/
+
+body { font-size:14px; line-height:1.1em; background:#121414; color:#e4e4e4; margin:0;  }
+
+a         { color:#ff3434; text-decoration:none; outline: none; }
+a:hover   { color:#d00; text-decoration:underline; background:#eee; }
+a:visited {  }
+a.active  { color:#e34; outline: none; }
+
+h1, h2, h3, 
+h4, h5, h6 { font-weight:bold; margin:0; padding:0; font-size:1em; }
+h1         { margin-bottom:50px; }
+h2         { margin-top:30px; margin-bottom:5px; }
+
+ul, li { margin:0; padding:0; list-style-type:none; }
+
+#index ul {  }
+#index ul, #index li { list-style-type:none; padding:0; margin:0; }
+
+#nav { position:absolute; z-index:1000; top:0px; left:0px; font-size:1.5em;  }
+    #nav a { color:#982020;  display:block; padding:3px; padding-left:0; }
+    #nav a:hover { color:#fc4; }
+
+#main { position:absolute; top:50px; left:50px; padding:0 100px 30px 0; font-size:.9em; }    
+    #content { }
+    .content { width: 600px; }    
+
+.date, .desc { line-height:1.1em; color:#888;}
+.tags { margin-top:10px; }
+.date a, .tags a       { color:#888; }
+.date a:hover, .tags a:hover { color:#fc4; }
+
+.post { margin-bottom:60px; width: 600px;}
+    .post h1 { margin-bottom:1px; }
+    .post .content { padding-top:0; margin-bottom:50px; }
+    .post .date { display: block; margin-bottom:5px; }
+
+ul#projects { margin:0; padding:0; list-style-type:none; padding-top:10px; }
+    ul#projects li         { float:left; margin-right:10px; margin-bottom:40px; }
+    ul#projects li .thumb  { height:100px; }
+    ul#projects li a       { display:block; height:100px; }
+    ul#projects li a:hover { background:#080808; height:100px; }    
+    ul#projects li a:visited {  }
+    ul#projects li a span  { display:none; }
+    ul#projects li:hover a span { color:#ff3434; position:relative; top:-100px; display:inline; background:#121414; padding:2px 2px 0 0; }
+    
+ul#project_list { display:none; margin:0; padding:0; list-style-type:none; float:right; padding-right:0; }    
+
+#parent { position:absolute; left:-30px; top:-2px; display:none; }
+
+.sort_order { margin-bottom:5px; display:block;}
+
+.code { background:#182118; color:#FFFFf1; padding:20px; }
+
+.comments { display:none; }

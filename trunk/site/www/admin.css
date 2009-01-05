@@ -1,0 +1,31 @@
+/* admin */
+
+#edit_panel {  font-size: .85em; width:500px; position:fixed; color:#ff; top:0px; right:0px; background:#202020; padding:10px; height:100%; z-index:5000; }
+    #edit_panel textarea, 
+    #edit_panel .edit_pane { width:484px; height:300px; padding:8px; margin:0; border:0; }
+    #edit_panel .menu { position:absolute; top:0; left:0; width: 100%; background:#000; height:30px; }
+    #status { position:relative; left:0px; color:#900; background:#ff8; top:0px; line-height:30px; width:330px; text-align:center; font-weight:bold;}
+
+#logout { position:absolute; top:5px; right:5px; }
+#toggle { position:fixed; z-index:6000;  top:0px; right:520px; background:#000; text-align:center; width:30px; line-height:30px; color:#fff; display:block; }
+    #toggle:hover { background:#fff; color:#000; }
+
+#edit_tags { width:462px; }
+
+#edit_misc { background:#fff; color:#000;}
+
+#edit_form { margin-top:35px; }
+#edit_form label { padding-right:6px; }
+
+#content_tabs               { margin:10px 0 0 0; padding:0; border-bottom:10px solid #ddd; }
+    #content_tabs li            { display:inline; list-style-type:none; margin-right:2px }
+    #content_tabs li a          { background:#565656; padding:0.2em 1em; color:#000; }
+    #content_tabs li a:hover    { background:#ddd; color:#000; }
+    #content_tabs li a.selected { background:#ddd; color:#000; }    
+
+#login input[type='text'], 
+#login input[type='password'] { margin-bottom:8px; }
+
+.hidden { text-decoration: line-through; }
+
+.uploadframe { border-collapse:collapse; border:0; height:230px; width:440px; }
